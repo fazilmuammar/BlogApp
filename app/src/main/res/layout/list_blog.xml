@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/text_content_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="0dp"/>
+
+    <TextView
+        android:id="@+id/text_category_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="0dp"/>
+
+    <TextView
+        android:id="@+id/text_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="0dp"/>
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:text="Judul Artikel"/>
+    <TextView
+        android:id="@+id/text_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text_title"
+        android:textSize="10dp"
+        android:text="Hubungan, "/>
+    <TextView
+        android:id="@+id/text_created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text_title"
+        android:layout_toRightOf="@+id/text_category"
+        android:textSize="10dp"
+        android:text="10, sept'16 10:00 PM"/>
+
+    <TextView
+        android:id="@+id/text_views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_category"
+        android:text="233 dilihat | "/>
+    <TextView
+        android:id="@+id/text_loves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_category"
+        android:layout_toRightOf="@id/text_views"
+        android:text="34 disuka"/>
+    <TextView
+        android:id="@+id/text_updated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_views"
+        android:textSize="8dp"
+        android:text="Diperbarui 10, sept'16 10:00 PM"/>
+    <TextView
+        android:id="@+id/text_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/text_created"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+        android:text="request"/>
+
+</RelativeLayout>
